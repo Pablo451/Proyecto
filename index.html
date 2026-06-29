@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio JavaScript - Ejercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> PRACTICA JAVASCRIPT </h1>
+        <section class="ejercicio">
+            <h2>1. Serie de Fibonacci</h2>
+            <p>Genera los primeros n números de la serie de Fibonacci</p>
+            <button onclick="ejercicio1()">Ejecutar Fibonacci</button>
+            <div id="resultado1" class="resultado"></div>
+        </section>
+        <section class="ejercicio">
+            <h2>2. Número Primo</h2>
+            <p>Verifica si un número es primo</p>
+            <form id="formPrimo">
+                <input type="number" id="numeroPrimo" placeholder="Ingresa un número" min="1">
+                <button type="submit">Verificar</button>
+            </form>
+            <div id="resultado2" class="resultado"></div>
+        </section>
+        <section class="ejercicio">
+            <h2>3. Suma de Pares e Impares</h2>
+            <p>Ingresa números hasta que ingreses 0</p>
+            <button onclick="ejercicio3()">Iniciar</button>
+            <div id="resultado3" class="resultado"></div>
+        </section>
+        <section class="ejercicio">
+            <h2>4. Factorial</h2>
+            <p>Calcula el factorial de un número</p>
+            <button onclick="ejercicio4()">Calcular Factorial</button>
+            <div id="resultado4" class="resultado"></div>
+        </section>
+        <section class="ejercicio">
+            <h2>5. Adivina el Número</h2>
+            <p>Adivina el número secreto (1-10)</p>
+            <button onclick="ejercicio5()">Jugar</button>
+            <div id="resultado5" class="resultado"></div>
+        </section>
+        <section class="ejercicio">
+            <h2>6. Contador de Vocales</h2>
+            <p>Cuenta las vocales en una frase</p>
+            <form id="formVocales">
+                <input type="text" id="frase" placeholder="Ingresa una frase" required>
+                <button type="submit">Contar Vocales</button>
+            </form>
+            <div id="resultado6" class="resultado"></div>
+        </section>
+        <section class="ejercicio">
+            <h2>7. Serie de 0 y 1</h2>
+            <p>Genera los primeros n números de la serie (0,1,1,0,0,0,1,1,1,1,0...)</p>
+            <button onclick="ejercicio7()">Generar Serie</button>
+            <div id="resultado7" class="resultado"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
